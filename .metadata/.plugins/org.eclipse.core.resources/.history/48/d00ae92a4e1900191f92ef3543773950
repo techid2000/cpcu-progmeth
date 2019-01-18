@@ -1,0 +1,7 @@
+
+public class RowToColumn {
+	public static int[][] rowToColumn(int[][] a) {
+		int r = a.length, c = a[0].length;
+		
+	}
+}

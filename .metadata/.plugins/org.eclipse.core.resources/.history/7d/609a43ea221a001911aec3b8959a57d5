@@ -1,0 +1,11 @@
+class Node {
+	Object obj;
+	Node right;
+}
+
+public class StorageBox {
+	Node stack;
+	public StorageBox() {
+		stack = new Node();
+	}
+}

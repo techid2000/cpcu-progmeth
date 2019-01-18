@@ -1,0 +1,4 @@
+import static java.lang.System.out;
+public class DistanceOfTwoPoints {
+	public static void main
+}

@@ -1,0 +1,10 @@
+
+public class partialArray {
+	public static int[] partialArray(int[] a,int i,int j) {
+		if(i>=j) return null;
+		int cnt = 0, olen = a.length, len = olen - (j-i);
+		int[] ret = new int[len];
+		for(int k = 0; k < olen)
+		ret[cnt++] = 
+	}
+}

@@ -1,0 +1,10 @@
+class Node {
+	
+	Node right;
+}
+
+public class StorageBox {
+	public StorageBox() {
+		
+	}
+}

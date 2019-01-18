@@ -1,0 +1,14 @@
+
+public class Robot {
+	int hp,x,y;
+
+	public Robot(int hp, int x, int y) {
+		this.hp = hp;
+		this.x = x;
+		this.y = y;
+	}
+	
+	public int getHp() {
+		return this.hp;
+	}
+}

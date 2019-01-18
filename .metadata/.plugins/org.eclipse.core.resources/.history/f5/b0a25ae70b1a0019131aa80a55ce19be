@@ -1,0 +1,16 @@
+
+public class Transformer extends Car {
+	int hp, attack, defense;
+	boolean isRobot;
+	
+	public Transformer(int a, String b, int hp, int attack, int defense, boolean isRobot) {
+		super(a, b);
+		this.attack = attack;
+		this.defense = defense;
+		this.isRobot = isRobot;
+	}
+	public void punch(Transformer x) {
+		if(!isRobot)return;
+		
+	}
+}

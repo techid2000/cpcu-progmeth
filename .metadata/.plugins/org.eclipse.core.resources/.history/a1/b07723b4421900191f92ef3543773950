@@ -1,0 +1,13 @@
+import static java.lang.System.out;
+import java.util.Scanner;
+public class RockPaperScissors {
+	static Scanner sc = new Scanner(System.in);
+	// R 	P 	 S
+	//R0	-1	 1 
+	//P1 	0	-1
+	//S-1	1 	 0
+	static final int[][] eva = {{0,-1,1},{1,0,-1},{-1,1,0}};
+	public static void main(String[] args) {
+		
+	}
+}

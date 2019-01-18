@@ -1,0 +1,8 @@
+import static java.lang.System.out;
+import java.util.Scanner;
+public class Triangle {
+	static Scanner sc;
+	public static void main(String[] args) {
+		
+	}
+}

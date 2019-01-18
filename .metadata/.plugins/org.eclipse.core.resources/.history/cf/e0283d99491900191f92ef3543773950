@@ -1,0 +1,8 @@
+
+public class ApplyAll {
+	static int[] multiplyAll(int x,int[] a,int i) {
+		int[] r;
+		if(i == a.length) return;
+		a[i]*=x;
+	}
+}

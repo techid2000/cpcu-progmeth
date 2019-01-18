@@ -1,0 +1,55 @@
+import java.util.Scanner;
+import java.io.*;
+import static java.lang.System.out;
+
+public class Convert {
+	static final int N = 5000007;
+	static String[] hash = new String[N];
+	static String[] sure = new String[N];
+	static int encrypt(String s) {
+		int num=0, i=1;
+		for(char c:s.toCharArray()) {
+			num += i*(int)c;
+			i*=17;
+			i = ((i%N)+N)%N;
+			num = ((num%N)+N)%N;
+		}
+		i = 1;
+		while(sure[num]!=null && sure[num].equals(s)) {
+			num += i;
+			i <<= 1;
+			i = ((i%N)+N)%N;
+			num = ((num%N)+N)%N;
+		}
+		if(sure[num]==null) sure[num]=s;
+		if(sure[num]!=s) {
+			return -1;
+		}
+		return num;
+	}
+	
+	public static String[] convert(String[] s) throws FileNotFoundException {
+		hash = new String[N];
+		sure = new String[N];
+		out.println(encrypt("5"));
+		out.println(encrypt("5"));
+		out.println(encrypt("5"));
+		int i = 0, len = s.length;
+		String[] ret = new String[len];
+//		Scanner fileScanner = new Scanner(new File("src/mapping.txt"));
+//		while (fileScanner.hasNext()) {
+//			Scanner line = new Scanner(fileScanner.nextLine());
+//			line.useDelimiter(",");
+//			String data1 = line.next().trim();
+//			String data2 = line.next().trim();
+//			out.println(data1+":"+encrypt(data1)+" "+data2+":"+encrypt(data2));
+//		}
+//		out.println();
+//		for(i = 0; i < len; i++) {
+//			int ed = encrypt(s[i]);
+//			out.println(s[i]+":"+ed);
+//		}
+//		out.println();
+		return ret;
+	}
+}

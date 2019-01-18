@@ -1,0 +1,10 @@
+import static java.lang.System.out;
+import java.util.Scanner;
+import java.awt.Point;
+public class DistanceOfTwoPoints {
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		Point a,b;
+		
+	}
+}

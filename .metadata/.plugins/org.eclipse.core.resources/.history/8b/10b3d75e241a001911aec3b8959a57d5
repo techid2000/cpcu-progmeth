@@ -1,0 +1,41 @@
+class Node {
+	Object obj;
+	Node right;
+	Node left;
+	public Node(Object o) {
+		obj = o;
+	}
+}
+
+public class StorageBox {
+	Node stack, head;
+	public StorageBox() {
+		stack = new Node(null);
+		head = stack;
+	}
+	public boolean isEmpty() {
+		return head == stack;
+	}
+	public void push(Object x) {
+		Node newnode = new Node(x);
+		head.right = newnode;
+		newnode.left = head;
+		head = newnode;
+	}
+	public Object pop() {
+		if(head != stack) {
+			head.left.right = null;
+			Node tmp = head;
+			head = head.left;
+			return tmp.obj;
+		}
+		return null;
+	}
+	public Object top() {
+		if(head == stack) {
+			return null;
+		} else {
+			return head.obj;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class Garage {
+	public Car[] cars;
+	public void removeDup() {
+		ArrayList<Car> a = new ArrayList<Car>();
+		int len = cars.length;
+		for(int i=0; i<len; i++) {
+			if(cars[i] == null) continue;
+			for(int j=i+1; j<len; j++) {
+				if(cars[i].equals(cars[j])) {
+					cars[j]=null;
+				}
+			}
+		}
+	}
+}

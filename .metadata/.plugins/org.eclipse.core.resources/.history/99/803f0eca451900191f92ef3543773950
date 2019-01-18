@@ -1,0 +1,29 @@
+import static java.lang.System.out;
+
+import java.util.Scanner;
+import static java.lang.System.out;
+import java.util.Scanner;
+public class RPSCompetition {
+	static Scanner sc1 = new Scanner("player1.txt"), sc2 = new Scanner("player2.txt");
+	static final int[][] eva = {{0,-1,1},{1,0,-1},{-1,1,0}};
+	static int convert(char c) {
+		if(c == 'R') return 0;
+		if(c == 'P') return 1;
+		if(c == 'S') return 2;
+		return -1;
+	}
+	static void err() { out.println("Illegal move, please re-run the program"); }
+	public static void main(String[] args) {
+		while(sc1.hasNext()) {
+			int y = convert(sc1.nextLine()[0]);
+			int o = convert(sc2.nextLine()[0]);
+			if(y == -1 || o == -1) {
+				err();
+				continue;
+			}
+			if(eva[y][o]==1) out.println("Player wins.");
+			else if(eva[y][o]==0) out.println("Draw.");
+			else if(eva[y][0]==-1) out.println("Opponent wins.");
+		}
+	}
+}

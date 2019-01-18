@@ -1,0 +1,18 @@
+class Node {
+	Object obj;
+	Node right;
+	public Node(Object o) {
+		obj = o;
+	}
+}
+
+public class StorageBox {
+	Node stack, head;
+	public StorageBox() {
+		stack = new Node(null);
+		head = stack;
+	}
+	public boolean isEmpty() {
+		return head == stack;
+	}
+}

@@ -1,0 +1,6 @@
+
+public class Transformer extends Car {
+	int attack, defense;
+	boolean isRobot;
+	
+}

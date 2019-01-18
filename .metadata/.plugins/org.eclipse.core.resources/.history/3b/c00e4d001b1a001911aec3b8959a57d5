@@ -1,0 +1,45 @@
+
+public class GundamRobot extends Robot {
+	int bullets;
+
+	public GundamRobot(int bullets, int hp, int x, int y) {
+		super(hp,x,y);
+		this.bullets = bullets;
+		this.hp = hp;
+		this.x = x;
+		this.y = y;
+	}
+
+	public int getBullets() {
+		return bullets;
+	}
+
+	public void setBullets(int bullets) {
+		this.bullets = bullets;
+	}
+
+	public int getHp() {
+		return hp;
+	}
+
+	public void setHp(int hp) {
+		this.hp = hp;
+	}
+
+	public int getX() {
+		return x;
+	}
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int y) {
+		this.y = y;
+	}
+
+}

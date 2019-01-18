@@ -1,0 +1,16 @@
+import static java.lang.System.out;
+import java.util.Scanner;
+import java.awt.Point;
+public class DistanceOfTwoPoints {
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		Point a = new Point(),b = new Point(),c = new Point();
+		out.println("Please enter (x, y).");
+		a.x = (int)sc.nextDouble();
+		a.y = (int)sc.nextDouble();
+		out.println("Please enter (dx, dy).");
+		b.x = (int)sc.nextDouble();
+		b.y = (int)sc.nextDouble();
+		c = a.translate(b.x, b.y);
+	}
+}

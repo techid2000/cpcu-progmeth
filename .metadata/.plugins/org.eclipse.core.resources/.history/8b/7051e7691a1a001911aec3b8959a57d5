@@ -1,0 +1,29 @@
+
+public class Robot {
+	int hp,x,y;
+
+	public Robot(int hp, int x, int y) {
+		this.hp = hp;
+		this.x = x;
+		this.y = y;
+	}
+	
+	public int getHp() {
+		return this.hp;
+	}
+	public void setHp(int x) {
+		this.hp = x;
+	}
+	public int getX() {
+		return this.x;
+	}
+	public void setX(int x) {
+		this.x = x;
+	}
+	public int getY() {
+		return this.y;
+	}
+	public void setY(int x) {
+		this.y = x;
+	}
+}

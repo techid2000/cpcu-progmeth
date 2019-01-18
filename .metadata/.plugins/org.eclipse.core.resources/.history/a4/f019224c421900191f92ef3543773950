@@ -1,0 +1,6 @@
+import static java.lang.System.out;
+import java.util.Scanner;
+public class RockPaperScissors {
+	static Scanner sc = new Scanner(System.in);
+	
+}

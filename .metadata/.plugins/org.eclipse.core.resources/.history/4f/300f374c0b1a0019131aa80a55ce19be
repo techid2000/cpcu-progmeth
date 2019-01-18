@@ -1,0 +1,10 @@
+
+public class Transformer extends Car {
+	public Transformer(int serial, String brand) {
+		super(serial, brand);
+		// TODO Auto-generated constructor stub
+	}
+	int attack, defense;
+	boolean isRobot;
+	
+}
