@@ -1,8 +1,0 @@
-
-public class CountEven {
-	public static int[] countEven(int [] a) {
-		int i,len=a.length;
-		int[] ret = new int[i];
-		for(i=0; i<)
-	}
-}

@@ -24,7 +24,7 @@
 	</section>
 	<section name="ImportExportAction">
 		<item value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
-		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.ZipFile" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>
@@ -35,6 +35,8 @@
 	<section name="ZipFileImportWizard">
 		<item value="true" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\MSI\Downloads\ToStudent.zip"/>
+			<item value="C:\Users\MSI\Downloads\exercise02_student.1291.1546964377.1189.zip"/>
 			<item value="C:\Users\MSI\Downloads\exercise01.1291.1546964292.5865\2110215_2018_lect01_ex01_student.jar"/>
 			<item value="C:\Users\MSI\Downloads\Tutorial2018_Object.1291.1547656838.487\handleException.jar"/>
 			<item value="C:\Users\MSI\Downloads\Tutorial2018_Object.1291.1547656838.487\extending.jar"/>

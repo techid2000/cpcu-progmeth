@@ -43,6 +43,8 @@
 	<section name="AddUnimplementedConstructorsDialog">
 		<item value="false" key="OmitCallToSuper"/>
 	</section>
+	<section name="RenameInformationPopup">
+	</section>
 	<section name="ClasspathContainerSelectionPage">
 		<item value="1" key="index"/>
 	</section>
@@ -80,6 +82,8 @@
 		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
 		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="OOExercise02\deck_finish.jar"/>
+			<item value="OOExercise02/deck_finish2.jar"/>
 			<item value="OOExercise01/storagebox_finish2.jar"/>
 			<item value="OOExercise01/storagebox_finish.jar"/>
 			<item value="HandleException/handle_finish.jar"/>

@@ -1,9 +1,0 @@
-import static java.lang.System.out;
-import java.util.Scanner;
-public class Flowchart {
-	static Scanner sc = new Scanner(System.in);
-	int x = sc.nextInt();
-	if(x < 0) {
-		out.println("Error: "+x);
-	}
-}

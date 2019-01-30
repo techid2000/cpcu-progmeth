@@ -1,9 +1,0 @@
-
-public class ChangeChar {
-	static String changeChar(String s, char c1, char c2) {
-		int len = s.length();
-		for(int i=0; i<len; i++) {
-			s[i] = (s.charAt(i) == c1 ? c2 : s.charAt(i));
-		}
-	}
-}

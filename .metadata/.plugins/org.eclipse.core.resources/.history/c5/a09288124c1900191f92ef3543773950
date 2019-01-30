@@ -1,6 +1,0 @@
-
-public class partialArray {
-	public static int[] partialArray(int[] a,int i,int j) {
-		
-	}
-}

@@ -1,7 +1,0 @@
-public class Garage {
-	public Car[] cars;
-	public void removeDup() {
-		ArrayList<Car> a = new ArrayList<Car>();
-		
-	}
-}
