@@ -1,8 +1,0 @@
-INDEX VERSION 1.131+E:\My files\works\code\java\cpcu-progmeth\.metadata\.plugins\org.eclipse.jdt.core
-3898316780.index
-3335207661.index
-1041292142.index
-407836985.index
-2980433612.index
-384058121.index
-1901250134.index
